@@ -16,7 +16,6 @@
     - [ ] C. 	an unfiltered grouping
     - [ ] D. 	a common table expression
 	
-	
  	
 
 2. You write a query to summarize sales revenue by country/region and state/province. The results from your query should match the following rowset structure:

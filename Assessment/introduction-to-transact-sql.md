@@ -13,6 +13,10 @@
     - [ ] B. primary key
     - [ ] C. table map
     - [ ] D. foreign key
+
+
+
+
 	
 2. True or false: When using an alias, you must include the AS keyword.
 

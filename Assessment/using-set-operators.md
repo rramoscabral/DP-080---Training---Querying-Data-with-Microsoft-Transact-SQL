@@ -20,13 +20,13 @@
 
     What result does the following query return?
 
-        ```sql
-        SELECT DISTINCT ProductID
-        FROM Sales.SalesOrderDetail
-        EXCEPT
-        SELECT ProductID
-        FROM Production.Product
-        WHERE Discontinued = 1;
+    ```sql
+    SELECT DISTINCT ProductID
+    FROM Sales.SalesOrderDetail
+    EXCEPT
+    SELECT ProductID
+    FROM Production.Product
+    WHERE Discontinued = 1;
     ```
 
     - [ ] A. 	All products that have been sold and all products that have been discontinued.
@@ -59,15 +59,19 @@
 	
 
 4. You write the following Transact-SQL query that returns the CustomerName, StreetAddress, City, and PostalCode columns from the Sales.BillingAddress table:
+
     ```sql
     SELECT CustomerName, StreetAddress, City, PostalCode
     FROM Sales.BillingAddress;
     ```
+
     You have also written the following query to retrieve the same fields from the Sales.ShippingAddress table:
-     ```sql
+
+    ```sql
     SELECT CustomerName, StreetAddress, City, PostalCode
     FROM Sales.ShippingAddress;
     ```
+
     What set operator can you use to combine the results of these queries and return only rows for customers whose billing address is the same as their shipping address?
     - [ ] A. 	UNION ALL
     - [ ] B. 	UNION
