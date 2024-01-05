@@ -72,6 +72,15 @@
     - [ ] C. 	OUTER JOIN dbo.CurrentYearOrders(c.CustomerID) AS cyo
     - [ ] D. 	OUTER APPLY dbo.CurrentYearOrders(c.CustomerID) AS cyo
  
+
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    CROSS APPLY dbo.CurrentYearOrders(c.CustomerID) AS cyo
+    </details>
+
+    <br>
  
  
 
@@ -89,6 +98,14 @@
     - [ ] C. 	WHERE CustomerID IN (SELECT CustomerID FROM Sales.Customer WHERE City = 'New York');
     - [ ] D. 	WHERE CustomerID IN (SELECT City FROM Sales.Customer WHERE City = 'New York');
 
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    WHERE CustomerID IN (SELECT CustomerID FROM Sales.Customer WHERE City = 'New York'); 
+    </details>
+
+    <br>
 
 
 <br/>

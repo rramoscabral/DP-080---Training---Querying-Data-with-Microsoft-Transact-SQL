@@ -84,7 +84,14 @@
     - [ ] E. 	Derived table
     - [ ] F. 	Table variable
 	
-	
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    Temporary table & Table variable.
+    </details>
+
+    <br>
  	
 
 8. You write a query that contains a derived table. The derived table should retrieve each product category ID and the count of products in those categories from the Production.Product table. The outer query then joins the derived table to the Production.ProductCategory table to display the product category names and their product counts.
@@ -122,20 +129,18 @@
         GROUP BY ProductCategoryID)
         ```
 	
+    <br>
 
-9. You write a Transact-SQL script and want to store a rowset in a temporary object that will be automatically deleted. The script will reference the temporary rowset from mulitple queries in the same batch.
+    <details>
+    <summary>Show answer</summary>
+    C & D
+    </details>
 
-    Which two types of object can you use to achieve your goals?
-    - [ ] A. 	Temporary table
-    - [ ] B. 	Table variable
-    - [ ] C. 	Table-valued function
-    - [ ] D. 	Derived table
-    - [ ] E. 	Common table expression
-    - [ ] F. 	View
-	
-	
+    <br>
+ 	
 
-10. How many different types of temporary tables are there?
+
+9. How many different types of temporary tables are there?
 
     - [ ] A. 	3
     - [ ] B. 	2

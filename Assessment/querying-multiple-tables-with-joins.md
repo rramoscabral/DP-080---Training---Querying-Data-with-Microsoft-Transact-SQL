@@ -62,6 +62,16 @@
   - [ ] B. 	LEFT OUTER JOIN
   - [ ] C. 	CROSS JOIN
   - [ ] D. 	INNER JOIN
+
+  <br>
+
+  <details>
+  <summary>Show answer</summary>
+  INNER JOIN
+  </details>
+
+  <br>
+
  
  
 

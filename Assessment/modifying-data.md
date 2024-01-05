@@ -16,6 +16,8 @@
     - [ ] C. 	IDENTITY columns
     - [ ] D. 	Nullable columns that have a default value
     - [ ] E. 	Non-Nullable columns that have no default value
+
+
 	
 
 2. You need to determine the most recently inserted IDENTITY column in a specific table.
@@ -26,6 +28,16 @@
     - [ ] C. 	```sql SELECT NEXT VALUE FOR table_name ```
     - [ ] D. 	```sql SELECT @@IDENTITY ```
 	
+
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    SELECT IDENT_CURRENT('table_name') 
+    </details>
+
+    <br>
+
 
 3. You want to load new product catalog data from a staging table into the Production.Products table. Products are uniquely identified by a ProductID value. You want to apply the following logic:
 

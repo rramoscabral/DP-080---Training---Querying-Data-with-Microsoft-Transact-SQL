@@ -34,6 +34,9 @@
     - [ ] D. 	The number of orders
 
 
+
+
+
 3. Which clause is required in order for an aggregate query to return more than one value?
 
     - [ ] A. 	GROUP BY

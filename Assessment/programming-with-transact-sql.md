@@ -16,7 +16,7 @@
     - [ ] D. 	The predicate evaluates to UNKNOWN.
 
 
-    |<br>
+    <br>
 
     <details>
     <summary>Show answer</summary>
@@ -34,7 +34,7 @@
     - [ ] C. 	START
     - [ ] D. 	BEGIN
 
-    |<br>
+    <br>
 
     <details>
     <summary>Show answer</summary>
@@ -105,14 +105,14 @@
         SELECT * FROM Sales.SalesOrder WHERE FY = @fy
         ```
 
-        <br>
+    <br>
 
-        <details>
-        <summary>Show answer</summary>
-        Answer B & D.
-        </details>
+    <details>
+    <summary>Show answer</summary>
+    Answer B & D.
+    </details>
 
-        <br>
+    <br>
 
 
 

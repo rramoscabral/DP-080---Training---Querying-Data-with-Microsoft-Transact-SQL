@@ -34,7 +34,15 @@
     - [ ] C. 	All non-discontinued products that have never been sold.
     - [ ] D. 	All discontinued products that have been sold.
 	
-	
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    All non-discontinued products that have been sold. 
+    </details>
+
+    <br>
+
 
 3. You write a query that returns the set of products that are available in the color 'Red' or the size 'XL' by combining the results of two queries. Any products that are available in both red and size XL should be included as a duplicate row in the resultset.
 
@@ -56,6 +64,15 @@
     - [ ] C. 	EXCEPT
     - [ ] D. 	INTERSECT
 	
+
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    UNION ALL
+    </details>
+
+    <br>
 	
 
 4. You write the following Transact-SQL query that returns the CustomerName, StreetAddress, City, and PostalCode columns from the Sales.BillingAddress table:
@@ -78,6 +95,16 @@
     - [ ] C. 	INTERSECT
     - [ ] D. 	EXCEPT
 	
+
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    INTERSECT
+    </details>
+
+    <br>
+
 
 5. What does an EXCEPT query return?
 

@@ -13,12 +13,13 @@
     SELECT Name, Price
     FROM Production.Product
     ```
+
     Which two of the following WHERE clauses can you use to complete the query correctly?
-    - [ ] A. 	WHERE Category IN (2, 4) ;
-    - [ ] B. 	WHERE CATEGORY = 2 AND Category = 4;
-    - [ ] C. 	WHERE Category BETWEEN 2 AND 4;
-    - [ ] D. 	WHERE Category = 2 OR Category = 4;
-    - [ ] E. 	WHERE Category = 2 OR 4;
+    - [ ] A. 	```sql WHERE Category IN (2, 4); ```
+    - [ ] B. 	```sql WHERE CATEGORY = 2 AND Category = 4; ```
+    - [ ] C. 	```sql WHERE Category BETWEEN 2 AND 4; ```
+    - [ ] D. 	```sql WHERE Category = 2 OR Category = 4; ```
+    - [ ] E. 	```sql WHERE Category = 2 OR 4; ```
 
 
 2.  Which character acts as a wildcard when used in the LIKE predicate?
@@ -28,6 +29,14 @@
     - [ ] C. 	*
     - [ ] D. 	_
 
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    _ (underscore)
+    </details>
+
+    <br>
 	
 3. 	Which character in a LIKE statement matches exactly one alpha-numeric character?
 
@@ -37,12 +46,33 @@
     - [ ] D. 	*
 
 
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    _ (underscore) Any single character
+    </details>
+
+    <br>
+
+
+
 4. 	Which T-SQL keyword should you use to remove duplicate rows?
 
     - [ ] A. 	DISTINCT
     - [ ] B. 	UNION ALL
     - [ ] C. 	WHERE
     - [ ] D. 	JOIN
+
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    DISTINCT
+    </details>
+
+    <br>
+
 
 5. 	Which SQL keyword matches a value in a collection when used in a predicate?
 
@@ -51,14 +81,31 @@
     - [ ] C. 	OR
     - [ ] D. 	BETWEEN
 
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    IN (Transact-SQL) determines whether a specified value matches any value in a subquery or a list.
+    </details>
+
+    <br>
 	
 6. 	You write a Transact-SQL query to list the available sizes for products. Each individual size should be listed only once.
 
     Which query should you use?
-    - [ ] A. 	SELECT TOP 1 Size FROM Production.Product ORDER BY Size;
-    - [ ] B. 	SELECT DISTINCT Size FROM Production.Product;
-    - [ ] C. 	SELECT ALL Size FROM Production.Product;
-    - [ ] D. 	SELECT Size FROM Production.Product;
+    - [ ] A. 	```sql SELECT TOP 1 Size FROM Production.Product ORDER BY Size; ```
+    - [ ] B. 	```sql SELECT DISTINCT Size FROM Production.Product; ```
+    - [ ] C. 	```sql SELECT ALL Size FROM Production.Product; ```
+    - [ ] D. 	```sql SELECT Size FROM Production.Product; ```
+
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    SELECT DISTINCT Size FROM Production.Product; 
+    </details>
+
+    <br>
 
 
 
