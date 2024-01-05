@@ -23,10 +23,10 @@
 2. You need to determine the most recently inserted IDENTITY column in a specific table.
 
     Which statement should you use?
-    - [ ] A. 	```sql SELECT IDENT_CURRENT('table_name') ```
-    - [ ] B. 	```sql SELECT SCOPE_IDENTITY() ```
-    - [ ] C. 	```sql SELECT NEXT VALUE FOR table_name ```
-    - [ ] D. 	```sql SELECT @@IDENTITY ```
+    - [ ] A. 	``` SELECT IDENT_CURRENT('table_name') ```
+    - [ ] B. 	``` SELECT SCOPE_IDENTITY() ```
+    - [ ] C. 	``` SELECT NEXT VALUE FOR table_name ```
+    - [ ] D. 	``` SELECT @@IDENTITY ```
 	
 
     <br>
@@ -51,6 +51,14 @@
     - [ ] C. 	An INSERT statement with a FROM clause
     - [ ] D. 	A MERGE statement
 
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    A MERGE statement
+    </details>
+
+    <br>
 
 
 4. What does the MERGE statement do?
@@ -60,7 +68,14 @@
     - [ ] C. 	It updates if there is a match, and runs a statement if there is not a match.
     - [ ] D. 	It runs one statement if there is a match, and runs another statement if there is not a match. 
 
+    <br>
 
+    <details>
+    <summary>Show answer</summary>
+    The MERGE statement allows you to check a set of data for a condition, and UPDATE a record if it exists or INSERT a record if it doesn't exist.
+    </details>
+
+    <br>
 
 5. What are two ways to insert data from a query or stored procedure?
 
@@ -76,6 +91,16 @@
     - [ ] B. 	2008
     - [ ] C. 	2014
     - [ ] D. 	2012
+
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    Sequence objects are used to sequentially generate numeric values. They were introduced in SQL Server 2012. 
+    </details>
+
+    <br>
+
 	
 
 7. Which function is used to find the last identity value for a specific table?
@@ -85,6 +110,15 @@
     - [ ] C. 	TABLE_MAX
     - [ ] D. 	IDENT_CURRENT
 
+
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    IDENT_CURRENT returns the last identity value generated for a specific table in any session and any scope.
+    </details>
+
+    <br>
 
 
 <br/>
