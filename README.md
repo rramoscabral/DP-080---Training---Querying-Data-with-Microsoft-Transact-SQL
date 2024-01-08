@@ -12,6 +12,8 @@ This course can be valuable for anyone who needs to write basic SQL or Transact-
 Training for Microsoft Official Course (MOC) DP-080: Querying Data with Microsoft Transact-SQL
 
 - [DP-080: Querying Data with Microsoft Transact-SQL](./about-the-course.md)
+  - [Course outline here](./course_outline_2023.md)
+  - [Notes](./notes.md)
 
 - Exam certification
     - **This course does not have any certification exam**
