@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-title: DP-080: Querying Data with Microsoft Transact-SQL
+title: "DP-080: Querying Data with Microsoft Transact-SQL"
 description: Companion material and resources for the course 'Endpoint Administrator' delivery by Ricardo Cabral 
 relative_links:
   enabled: true
