@@ -14,6 +14,9 @@
     - [ ] B. 	They are serializable.
     - [ ] C. 	They cause fewer recompilations.
     - [ ] D. 	They can be persisted to disk. 
+
+
+    <br>
 	
 
 2. Which keyword is used to start the definition of a common table expression?
@@ -22,6 +25,8 @@
     - [ ] B. 	BEGIN
     - [ ] C. 	APPLY
     - [ ] D. 	WITH
+
+    <br>
 	
 3. Which statement are derived tables created within?
 
@@ -29,6 +34,9 @@
     - [ ] B. 	BEGIN
     - [ ] C. 	SELECT
     - [ ] D. 	CREATE
+
+
+    <br>
 	
 
 4. You write the following query, which uses a common table expression:
@@ -53,7 +61,7 @@
     - [ ] D. 	SELECT YTD_Orders =
     - [ ] E. 	WITH YTD_Orders (OrderMonth, SalesOrderID)
 	
-
+    <br>
 
 5. What is the lifetime of a table variable scoped to?
 
@@ -61,17 +69,25 @@
     - [ ] B. 	instance
     - [ ] C. 	connection
     - [ ] D. 	session
-        
+  
+    <br>     
 
 
 6. What is the main characteristic of table-valued functions?
 
     - [ ] A. 	They are defined as part of a table.
     - [ ] B. 	They accept a table as a parameter.
-    - [ ] C. 	 They return a virtual table when run.
+    - [ ] C. 	They return a virtual table when run.
     - [ ] D. 	They can participate in transactions.
 	
- 	
+    <br>
+
+    <details>
+    <summary>Show answer</summary>
+    A user-defined function that returns a table data type and also it can accept parameters.
+    </details>
+
+    <br>
 
 	
 7. You write a Transact-SQL script and want to store a rowset in a temporary object that will be automatically deleted. The script will reference the temporary rowset from mulitple queries in the same batch.
@@ -146,6 +162,14 @@
     - [ ] B. 	2
     - [ ] C. 	4
     - [ ] D. 	1
+
+    <br/>
+
+    <details>
+    <summary>Show answer</summary>
+    Temporary tables are stored in tempdb. There are two types of temporary tables: local and global. [Tables](https://learn.microsoft.com/en-us/sql/relational-databases/tables/tables)
+    </details>
+
 
 
 
